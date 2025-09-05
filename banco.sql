@@ -1,7 +1,6 @@
 
 USE TechShop;
 
--- Categorias de peças
 CREATE TABLE categorias (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL
