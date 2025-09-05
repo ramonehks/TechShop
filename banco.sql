@@ -16,7 +16,6 @@ INSERT INTO categorias (nome) VALUES
 ('Fonte de Alimentação'),
 ('Gabinete');
 
--- Marcas (substitui distribuidor)
 CREATE TABLE marcas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL
@@ -32,7 +31,6 @@ INSERT INTO marcas (nome) VALUES
 ('Kingston'),
 ('Seagate');
 
--- Produtos (tabela principal)
 CREATE TABLE produtos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(150) NOT NULL,
